@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zalo Employees Plugin\n"
+"POT-Creation-Date: 2014-11-23 10:18+0100\n"
+"PO-Revision-Date: 2014-11-23 10:21+0100\n"
+"Last-Translator: Tor Raswill <tor@raswill.se>\n"
+"Language-Team:  <tor@raswill.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/zaloalt/wp-content/plugins/zalo-"
+"employees\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: single-zalo_employees.php:53
+msgid "A little bit about me"
+msgstr "Lite om mig"
+
+#: single-zalo_employees.php:62
+msgid "Why I love what I do"
+msgstr "Varför jag älskar det jag gör"
+
+#: zalo-employees-plugin.php:45
+msgid "Employees"
+msgstr "Antällda"
+
+#: zalo-employees-plugin.php:46
+msgid "Employee"
+msgstr "Anställd\t"
+
+#: zalo-employees-plugin.php:107 zalo-employees-plugin.php:268
+msgid "Title"
+msgstr "Titel"
+
+#: zalo-employees-plugin.php:122
+msgid "Javascript"
+msgstr ""
+
+#: zalo-employees-plugin.php:126
+msgid "HTML5"
+msgstr ""
+
+#: zalo-employees-plugin.php:130
+msgid "CSS3"
+msgstr ""
+
+#: zalo-employees-plugin.php:134
+msgid "Visual Studio"
+msgstr ""
+
+#: zalo-employees-plugin.php:138
+msgid "C#"
+msgstr ""
+
+#: zalo-employees-plugin.php:142
+msgid "SharePoint"
+msgstr ""
+
+#: zalo-employees-plugin.php:146
+msgid "Azure"
+msgstr ""
+
+#: zalo-employees-plugin.php:150
+msgid "Office"
+msgstr ""
+
+#: zalo-employees-plugin.php:154
+msgid "Office365"
+msgstr ""
+
+#: zalo-employees-plugin.php:158
+msgid "PowerShell"
+msgstr ""
+
+#: zalo-employees-plugin.php:162
+msgid "Scrum"
+msgstr ""
+
+#: zalo-employees-plugin.php:260
+msgid "Displays the Zalo employees"
+msgstr "Visar anställda hos Zalo"

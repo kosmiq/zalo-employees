@@ -1,0 +1,384 @@
+.zaloemployeeswidget {
+  background: #2e2f33;
+  color: #959595;
+}
+
+.zaloemployeeswidget.featuredpage .widget-wrap {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  float: left;
+}
+
+.zaloemployeeswidget .entry-title {
+  line-height: 1;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.zalo-employees {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.zalo-employees .employee {
+  display: block;
+  float: left;
+  width: 33.33%;
+  position: relative;
+  background: #414042;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.zalo-employees .employee:hover {
+  transform:scale(1.01);
+  opacity: 1;
+}
+
+.zalo-employees .employee:hover {
+  z-index: 99;
+}
+
+.zalo-employees .employee-image {
+  line-height: 0;
+}
+
+.zalo-employees .employee-image img {
+  width: 100%;
+}
+
+.zalo-employees .employee-info {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px 15px;
+  width: 100%;
+}
+
+.zalo-employees .employee-title {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.zalo-employees .entry-header h4 {
+  font-weight: 600;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  margin: 0;
+}
+
+.zalo-employee-single .zalo-employee-header-wrap {
+  float: left;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.zalo-employee-single .one-half {
+  width: 50%;
+  margin: 0;
+}
+
+.zalo-employee-single .entry-header {
+  text-align: center;
+}
+
+.zalo-employee-single .zalo-employee-contact-info {
+  text-align: center;
+}
+
+.zalo-employee-single .zalo-employee-contact-info .zalo-employee-contact {
+  color: #fff;
+  padding: 10px;
+  background: #35a129;
+  border: 1px solid #287e1f;
+  border-left: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-weight: 300;
+  font-family: 'Source Sans Pro';
+  /* margin: 5px 5px; */
+  min-width: 130px;
+  text-align: center;
+}
+
+.zalo-employee-single .zalo-employee-contact-info .zalo-employee-contact-link {
+  display: inline-block;
+  margin: 5px;
+  -webkit-box-shadow: 0 5px 0 #236a18;
+  -moz-box-shadow: 0 5px 0 #236a18;
+  box-shadow: 0 5px 0 #236a18;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  border-radius: 3px;
+}
+
+.zalo-employee-single .zalo-employee-contact-info .zalo-employee-contact-link:hover {
+  -webkit-box-shadow: 0 1px 0 #236a18;
+  -moz-box-shadow: 0 1px 0 #236a18;
+  box-shadow: 0 1px 0 #236a18;
+  position: relative;
+  top: 2px;
+}
+
+.bungie:before {
+  content:"";
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 5px;
+  background-image:url('images/destiny-icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.zalo-employee-single .zalo-employee-contact-info .zalo-employee-contact-icon {
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background: black;
+  padding: 10px;
+  display: block;
+  float: left;
+  background: #287e1f;
+  color: #fff;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.zalo-employee-single .zalo-employee-contact-info .zalo-employee-contact-icon:before {
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  display: block;
+  font-family: FontAwesome;
+  float: left;
+}
+
+.zalo-employee-single .entry-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 3px 3px rgba( 0, 0, 0, 0.1 );
+}
+
+.zalo-employee-single .content,
+.zalo-employee-single .content .entry {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.zalo-employee-single .zalo-employee-upper-row,
+.zalo-employee-single .zalo-employee-lower-row {
+  width: 100%;
+  clear: both;
+  float: left;
+}
+
+.zalo-employee-single .zalo-employee-skills,
+.zalo-employee-single .zalo-employee-about,
+.zalo-employee-single .zalo-employee-whyilove,
+.zalo-employee-single .zalo-employee-image {
+  /*float: left;
+  width: 50%;*/
+  padding: 4%;
+  position: relative;
+}
+
+.zalo-employee-single .position-text {
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.zalo-employee-single .full {
+  width: 100%;
+}
+
+.zalo-employee-single .zalo-employee-skills {
+  text-align: center;
+  position: relative;
+  background: #ccc;
+}
+
+.zalo-employee-single .zalo-employee-skills-wrap {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+/*.zalo-employee-single .zalo-employee-about,
+.zalo-employee-single .zalo-employee-whyilove {
+  font-size: 90%;
+}*/
+
+.zalo-employee-single .zalo-employee-whyilove {
+  background: #000;
+  color: #fff;
+}
+
+
+.zalo-employee-single .zalo-employee-image {
+  padding: 0;
+  line-height: 0;
+}
+
+.zalo-employee-single .zalo-employee-image img {
+  width: 100%;
+}
+
+.zalo-employee-single .zalo-employee-skill {
+  /*float: left;*/
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 5px;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.zalo-javascript:before,
+.zalo-html5:before,
+.zalo-css3:before,
+.zalo-visualstudio:before,
+.zalo-csharp:before,
+.zalo-sharepoint:before,
+.zalo-azure:before,
+.zalo-office:before,
+.zalo-office365:before,
+.zalo-powershell:before,
+.zalo-scrum:before {
+  height: inherit;
+  width: inherit;
+  max-height: inherit;
+  max-width: inherit;
+  content:'';
+  display: block;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('images/skills.png');
+}
+.zalo-azure:before {
+  background-image: url('images/azure.png');
+}
+.zalo-csharp:before {
+  background-image: url('images/csharp.png');
+}
+.zalo-css3:before {
+  background-image: url('images/css3.png');
+}
+.zalo-html5:before {
+  background-image: url('images/html5.png');
+}
+.zalo-javascript:before {
+  background-image: url('images/js.png');
+}
+.zalo-office:before {
+  background-image: url('images/office.png');
+}
+.zalo-office365:before {
+  background-image: url('images/office365.png');
+}
+.zalo-powershell:before {
+  background-image: url('images/powershell.png');
+}
+.zalo-scrum:before {
+  background-image: url('images/scrum.png');
+}
+.zalo-sharepoint:before {
+  background-image: url('images/sharepoint.png');
+}
+.zalo-visualstudio:before {
+  background-image: url('images/visualstudio.png');
+}
+
+@media only screen and (max-width: 1023px) {
+  .zalo-employee-single .position-text {
+    position: relative;
+    top: auto;
+    transform: none;
+  }
+
+  .zalo-employee-header-wrap .one-third,
+  .zalo-employee-header-wrap .two-thirds,
+  .zalo-employee-single .zalo-employee-image,
+  .zalo-employee-single .zalo-employee-about {
+    width: 100%;
+  }
+
+  .zalo-employee-header-wrap .one-third {
+    margin: 0;
+  }
+
+}
+
+@media only screen and (max-width: 782px) {
+  .zalo-employee-single .position-text {
+    position: relative;
+    top: auto;
+    transform: none;
+  }
+
+  .zalo-employee-single .one-half {
+    width: 100%;
+  }
+
+  .zalo-employee-single .zalo-employee-skill {
+    max-height: 64px;
+    max-width: 64px;
+  }
+
+  .zalo-employees .employee {
+    width: 50%;
+  }
+
+  .zalo-employees .entry-header h4 {
+    font-size: 14px;
+  }
+
+  .zalo-employees .employee-title {
+    font-size: 12px;
+  }
+
+  .zalo-employee-single .zalo-employee-contact-info .zalo-employee-contact-icon:before {
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    display: block;
+    font-family: FontAwesome;
+    float: left;
+  }
+
+  .zalo-employee-single .zalo-employee-skills-wrap {
+    display: block;
+    top: auto;
+    left: auto;
+    position: relative;
+    width: 100%;
+    transform: none;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .zalo-employees .employee {
+    width: 100%;
+  }
+
+}
